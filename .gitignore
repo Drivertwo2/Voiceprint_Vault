@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Private voice recordings
+recordings/
+live_test/
+live_tests/
+new_training/
+
+# Trained speaker models
+models/
+*.pkl
+
+# Audio files
+*.wav
+*.m4a
+
+# Private settings and experimental data
+.env
+.env.*
+results/
